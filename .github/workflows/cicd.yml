@@ -81,7 +81,7 @@ jobs:
 
     needs: deploy-uat   
 
-    uses: ./.github/workflows/deploy-template.yml
+    uses: ./.github/workflows/deployment.yml
 
     with:
 
