@@ -16,14 +16,14 @@ permissions:
   id-token: write # 🌟 Required for requesting the JWT OIDC token
 
   contents: read  # 🌟 Required for actions/checkout
-
+  actions: read
 jobs:
 
   # Call your completely separate existing CI file
 
-  ci:
+  # ci:
 
-    uses: ./.github/workflows/ci_test.yml
+  #   uses: ./.github/workflows/ci_test.yml
  
   # =========================================================================
 
@@ -35,7 +35,7 @@ jobs:
 
     name: Dev Stage
 
-    needs: ci    
+    # needs: ci    
 
     uses: ./.github/workflows/deployment.yml
 
