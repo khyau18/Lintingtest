@@ -14,7 +14,7 @@ on:
         type: string
 
         description: "The targeted GitHub environment name (e.g., dev, uat, prod)"
-       runid:
+      runid:
         required: true
         type: string
         description: "runid input"
