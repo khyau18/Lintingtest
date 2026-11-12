@@ -23,7 +23,7 @@ jobs:
 
   ci:
 
-    uses: ./.github/workflows/demo-ci.yml
+    uses: ./.github/workflows/ci_test.yml
  
   # =========================================================================
 
