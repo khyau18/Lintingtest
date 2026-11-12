@@ -4,7 +4,7 @@ import { Client } from 'pg'; // 👈 Using a recognized, official npm package
  
 const app = express();
 
-const api_key = "sk_live_51Nx7A2k9FmQJz8v3R9tY4wLp2bXm8cVk1d"
+// const api_key = "sk_live_51Nx7A2k9FmQJz8v3R9tY4wLp2bXm8cVk1d"
  
 // Set up a mock database client connection
 
