@@ -5,7 +5,7 @@ on:
 
   workflow_run:
 
-    workflows: ["Demo CI Pipeline"] # 🌟 CRUCIAL: Match the exact name field from the top of the CI workflow
+    workflows: ["Continuous Integration"] # 🌟 CRUCIAL: Match the exact name field from the top of the CI workflow
 
     types:
 
